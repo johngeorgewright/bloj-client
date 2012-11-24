@@ -1,0 +1,31 @@
+{
+  "name": "bloj-client",
+  "version": "0.0.0",
+  "description": "A command line blogger.",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": "",
+  "keywords": [
+    "blog",
+    "cli"
+  ],
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "restify": "*",
+    "commander": "*",
+    "pkginfo": "*",
+    "editor": "git+https://github.com/johngeorgewright/node-editor.git#setRawModeFix",
+    "markdown": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*",
+    "expect.js": "*"
+  },
+  "bin": {
+    "bloj": "./cli.js"
+  }
+}
+

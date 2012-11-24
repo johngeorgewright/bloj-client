@@ -1,0 +1,2 @@
+require('pkginfo')(module);
+
